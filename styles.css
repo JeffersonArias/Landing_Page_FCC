@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Oleo+Script&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav-bar li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color: #21A8F4;
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(248, 247, 247);
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+#nav-bar .nav-links{
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #192ABF;
+    font-weight: bold;
+}
+
+/*CONTENT*/
+
+#post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    height: 200px;
+}
+
+#post input[type="email"] {
+    margin-top: 15px;
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#post input[type='submit']{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    max-width: 150px;
+    width: 100%;
+    background-color: #21A8F4;
+    margin: 15px 0;
+    padding: 5px;
+    border: 0;
+    color: white;
+}
+
+#post input[type='submit']:hover{
+
+    background-color: #192ABF;
+
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#features .grid{
+    display: flex;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: #21A8F4;
+    width: 15%;
+}
+
+#features .icon  i{
+    font-size: 3em;
+}
+
+#features .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    height: 150px;
+    width: 85%;
+}
+
+#how_it_works {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #3340b5;
+    background-color: #252a5f;
+    margin: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card .title {
+    background-color: #3340b5;
+    padding: 5px;
+    color: #fff;
+    font-size: large;
+}
+
+.card p {
+    margin-bottom: 10px;
+    color: #fff;
+}
